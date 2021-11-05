@@ -1,0 +1,224 @@
+
+body{
+     background-color: white;
+}
+
+/* root */
+.root{
+     width: 1440px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-content: space-between;
+}
+/* top container */
+
+.topcontainer{
+     background: linear-gradient(90deg, rgba(255,143,112,1) 17%, rgba(255,61,84,1) 93%);
+     width: 1440px;
+     height: 600px;
+     margin: auto;
+     border-radius: 0 0 0 75px;
+}
+.bgimg{
+     background-image: url(images/bg-pattern-intro.png); 
+     background-repeat: no-repeat;
+     background-size: 1370px 600px;
+     margin-left: 5%;
+}
+
+nav{
+     width:1200px;
+     margin: auto;
+     padding-top:500px;
+     
+}
+.navbar{
+     padding-top: 30px;
+     
+}
+.navbar-light .navbar-brand {
+     color: #f8f9fa;
+     font-family: 'Overpass', sans-serif;
+     font-weight: 700;
+     font-size: 40px;
+     padding-right: 30px;
+     
+}
+
+.navbar-light .navbar-nav .nav-link{
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 300;
+     color: white;
+     padding-top: 15px;
+     padding-right: 20px;
+    
+}
+.maintxt{
+     width:1000px;
+     margin: auto;
+     padding-top: 100px ;
+     text-align: center;
+     padding-bottom: 200px;
+     color:white;
+     padding-right: 20px;
+}
+.dropdown-toggle::after{
+     border:none;
+     content: url(images/icon-arrow-light.svg);
+}
+
+h1{
+     font-size: 65px;
+     font-family: 'Overpass', sans-serif;
+     font-weight: 600;
+}
+h5{
+     padding-top: 10px;
+     padding-bottom: 50px;
+     font-family: 'Overpass', sans-serif;
+}
+.log{
+     display: flex;
+     margin-right: 7.5%;
+     margin-top: 2.5%;
+}
+.login:hover{
+     color: white;
+}
+.btn{
+     width:8rem;
+     border-radius: 25px;
+     background-color: white;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 700 ;
+     color:hsl(356, 100%, 66%);
+     margin-left: 15px;
+     
+}
+.btn:hover{
+     background-color:hsl(356, 100%, 66%) ;
+     color: white;
+}
+.btn-outline-light{
+     background-color: transparent;
+     color:white;
+}
+.btn-outline-light:hover{
+     background-color: white;
+     color: hsl(356, 100%, 66%);
+}
+a {
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 700;
+     color: #f8f9fa;
+ }
+
+ /* midcontainer1 */
+.midcontainer1{
+     width: 1440px;
+     height: 100%;
+     margin: auto;
+     display: flex;
+     padding-top: 100px;
+}
+.midcontainer1items {
+     padding-top: 100px;
+     width: 800px;
+}
+.ir{
+     margin-top: 200px;
+}
+h2{
+     font-size: 40px;
+     position: absolute;
+     margin-left: 450px;
+     font-family: 'Overpass', sans-serif;
+     font-weight: 700;
+}
+.crp {
+     overflow: hidden;
+ }
+
+ .crp .mc1img {
+     width: 1000px;
+     margin-left: 220px;
+     height: 100%;
+ }
+ .robust{
+      margin-top: 50px;
+ }
+
+/* midcontainer2 */
+.midcontainer2{
+     background: linear-gradient(90deg, rgba(44,45,63,1) 12%, rgba(63,65,100,1) 50%);
+     width: 1440px;
+     height: 420px;
+     border-radius: 0 75px 0 75px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     margin-top: 50px;   
+}
+.crp .mc2img{
+     width: 1200px;
+     height: 1200px;
+     margin: -650px 0 0 -300px;
+}
+.header2{
+     width: 500px;
+     position: absolute;
+     margin-left: 820px;
+     margin-top: 150px;
+     color: ivory;
+}
+.mc2{
+     display: flex;
+     flex-direction: row;
+}
+.mc2imgphones{
+     position: absolute;
+     margin-left: 150px;
+
+}
+/* middlecontainer3 */
+.midcontainer3{
+     display: flex;
+     flex-direction: row;
+     margin-top: 200px;
+}
+.mc3crp{
+     overflow: hidden;
+}
+.mc3img{
+     width: 1000px;
+     margin:0px 0px 0px -280px;
+}
+.mc3content{
+     width: 500px;
+     margin-top: 200px;
+
+}
+.mc3content-2{
+     margin-top: 100px;
+}
+h4{
+     padding-bottom: 20px;
+}
+/* footer */
+.footercontents{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background-color: black;
+     color: white;
+}
+
+.blogr{
+     font-size: 30px;
+     margin-bottom: 30px;
+}
+.footercontents{
+     padding:30px 0px;
+}
+    
